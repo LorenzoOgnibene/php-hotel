@@ -49,9 +49,11 @@
         ];
 
         foreach($hotels as $key => $hotel){
-            foreach($hotel as $key => $value){
-                echo "<p>{$key}: {$value}</p>";
-            }
+            echo "<p>Nome: {$hotel['name']} </p>";
+            echo "<p>Descrizione: {$hotel['description']} </p>";
+            echo "<p>Parcheggio: {$hotel['parking']} </p>";
+            echo "<p>Voto: {$hotel['vote']} </p>";
+            echo "<p>Distanza dal centro: {$hotel['distance_to_center']}mt </p>";
         }
 
         ?>
