@@ -63,16 +63,16 @@
 
         <div class="container pt-5">
             <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <th scope='col'>Nome</th>
+                        <th scope='col'>Descrizione</th>
+                        <th scope='col'>Parcheggio</th>
+                        <th scope='col'>Voto</th>
+                        <th scope='col'>Distanza dal centro</th>
+                        </tr>
+                        </thead>
                 <?php
-                    echo " <thead>
-                                <tr>
-                                    <th scope='col'>Nome</th>
-                                    <th scope='col'>Descrizione</th>
-                                    <th scope='col'>Parcheggio</th>
-                                    <th scope='col'>Voto</th>
-                                    <th scope='col'>Distanza dal centro</th>
-                                </tr>
-                        </thead>";
                     echo "<tbody>";
                     foreach ($hotels as $hotel) {
                         echo "<tr>";
