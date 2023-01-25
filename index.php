@@ -71,7 +71,7 @@
                         <th scope='col'>Voto</th>
                         <th scope='col'>Distanza dal centro</th>
                         </tr>
-                        </thead>
+                </thead>
                 <?php
                     echo "<tbody>";
                     foreach ($hotels as $hotel) {
